@@ -168,7 +168,7 @@ lazy val tests = project
     libraryDependencies ++= Seq(
       // Test dependencies
       "com.lihaoyi" %% "scalatags" % "0.6.3",
-      "org.typelevel" %% "paiges-core" % "0.2.0",
+      "org.typelevel" %% "paiges-core" % "0.2.2",
       scalametaTestkit
     )
   )
