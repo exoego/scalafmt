@@ -155,7 +155,7 @@ lazy val intellij = project
     test := {}, // no need to download IDEA to run all tests.
     ideaEdition := IdeaEdition.Community,
     ideaDownloadDirectory in ThisBuild := baseDirectory.value / "idea",
-    libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "1.0.6",
+    libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "1.2.0",
     cleanFiles += ideaDownloadDirectory.value
   )
   .dependsOn(coreJVM, cli)
