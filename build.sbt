@@ -167,7 +167,7 @@ lazy val tests = project
     skip in publish := true,
     libraryDependencies ++= Seq(
       // Test dependencies
-      "com.lihaoyi" %% "scalatags" % "0.6.3",
+      "com.lihaoyi" %% "scalatags" % "0.6.8",
       "org.typelevel" %% "paiges-core" % "0.2.0",
       scalametaTestkit
     )
