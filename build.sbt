@@ -90,7 +90,7 @@ lazy val core = crossProject(JVMPlatform)
   .settings(
     moduleName := "scalafmt-core",
     addCompilerPlugin(
-      "org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.full
+      "org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full
     ),
     buildInfoSettings,
     libraryDependencies ++= Seq(
