@@ -9,6 +9,7 @@ using [HOCON](https://github.com/lightbend/config) syntax.
 Here is an example `.scalafmt.conf`:
 
 ```scala config
+version = "2.7.5"
 align.preset = more    // For pretty alignment.
 maxColumn = 100 // For my wide 30" display.
 ```
